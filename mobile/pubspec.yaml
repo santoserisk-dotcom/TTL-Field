@@ -1,0 +1,19 @@
+name: ttl_field_mobile
+description: App silencioso de telemetria para técnicos
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.5.0+1
+  flutter_secure_storage: ^9.2.2
+  geolocator: ^13.0.1
+  sensors_plus: ^6.0.1
+  workmanager: ^0.5.2
+
+flutter:
+  uses-material-design: true
